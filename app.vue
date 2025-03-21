@@ -7,7 +7,6 @@ addCollection(MSymbolsCollection)
 </script>
 
 <template>
-  <VitePwaManifest />
   <NuxtLayout>
     <NuxtPage />
   </NuxtLayout>
