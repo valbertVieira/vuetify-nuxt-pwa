@@ -9,7 +9,7 @@ const screens = [
 </script>
 
 <template>
-  <VSheet class="fixed bottom-0 h-20 w-full grid  grid-cols-4 items-center z-50">
+  <VSheet class="fixed bottom-0 h-20 w-full grid  grid-cols-3 items-center z-50">
     <div
       v-for="screen in screens"
       :key="screen.icon"
