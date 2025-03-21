@@ -45,8 +45,8 @@ export default defineNuxtConfig({
   pwa: {
     registerType: 'autoUpdate',
     manifest: {
-      theme_color: '#8936FF',
-      background_color: '#2EC6FE',
+      theme_color: '#FFF',
+      background_color: '#E2E2E2',
       icons: [
         { purpose: 'maskable', sizes: '512x512', src: 'icon512_maskable.png', type: 'image/png' },
         { purpose: 'any', sizes: '512x512', src: 'icon512_rounded.png', type: 'image/png' },
