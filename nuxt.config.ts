@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   ssr: false,
   devtools: { enabled: true },
-  modules: ['vuetify-nuxt-module', '@pinia/nuxt'],
+  modules: ['vuetify-nuxt-module', '@pinia/nuxt', '@vite-pwa/nuxt'],
   app: {
     pageTransition: {
       name: 'fade',
