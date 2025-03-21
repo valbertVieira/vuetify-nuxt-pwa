@@ -7,7 +7,10 @@ addCollection(MSymbolsCollection)
 </script>
 
 <template>
-  <NuxtLayout>
-    <NuxtPage />
-  </NuxtLayout>
+  <section>
+    <NuxtPwaManifest />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+  </section>
 </template>
