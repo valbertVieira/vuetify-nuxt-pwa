@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap');
+@import "tailwindcss" important;
+
+
+.font-readex-pro {
+  font-family: 'Readex Pro';
+}
+
+/* override vuetify default fonts*/
+:root {
+  --v-font-family: "Readex Pro",serif;
+}
+
+body {
+  overflow:hidden;
+  font-family: var(--v-font-family), serif;
+  font-weight: 400;
+}
+  
+body::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+  /* Personaliza toda a barra de rolagem */
+  ::-webkit-scrollbar {
+    width: 4px; /* Largura da barra de rolagem */
+    height: 3px; /* Altura da barra de rolagem para rolagem horizontal */
+  }
+  
+  /* Personaliza a trilha (parte de trás) da barra de rolagem */
+  ::-webkit-scrollbar-track {
+    border-radius: 10px; /* Arredondamento das bordas da trilha */
+  }
+  
+  /* Personaliza o manipulador da barra de rolagem (a parte que você segura para rolar) */
+  ::-webkit-scrollbar-thumb {
+    background: #999; /* Cor de fundo do manipulador */
+    border-radius: 10px; /* Arredondamento das bordas do manipulador */
+  }
+  
+  /* Personaliza o manipulador da barra de rolagem em hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Cor de fundo do manipulador ao passar o mouse */
+  }
+  
+/*  global transitions */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+
+
